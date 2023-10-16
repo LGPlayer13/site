@@ -33,3 +33,124 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+.secondary
+{
+  position: relative;
+  margin: auto;
+  bottom: -10px;
+  right: 0;
+  left: 0;
+  background-color: lightgrey;
+  width: 50%;
+  height: 260px;
+  border: 7px ridge #f2f2f2;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+}
+/*
+.games
+{
+  position: relative;
+  margin-right: auto;
+  margin-left: 0;
+  bottom: 560px;
+  background-color: #cf6928;
+  width: 200px;
+  height: 920px;
+  border: 7px ridge #ff8d26;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	z-index: 100;
+}
+*/
+.games
+{
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+  background-color: #cf6928;
+  width: 200px;
+  height: 920px;
+  border: 7px ridge #ff8d26;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	z-index: 100;
+}
+
+.bottom-bar
+{
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #60cf28;
+  width: 97.9%;
+  height: 20px;
+  border: 7px ridge #6fff26;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	z-index: 1000;
+}
+
+.header
+{
+  background-color: lightgrey;
+  border: 7px ridge #f2f2f2;
+  padding: 20px;
+  text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	z-index: 500;
+}
+
+.topnav
+{
+  position: sticky;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #828282;
+  border: 7px ridge #959595;
+  text-shadow: 1px 1px 1px #5b5b5b;
+  width: 30.5%;
+	border-radius: 3px;
+	display: block;
+	z-index: 450;
+}
+
+.topnav a
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.buttonIGM1-1
+{
+  width: 2%;
+  text-align: right;
+}

@@ -25,7 +25,7 @@ body, html, div
   left: 0;
   background-color: lightgrey;
   width: 50%;
-  height: 260px;
+  height: 20%;
   border: 7px ridge #f2f2f2;
   padding: 5px;
   text-shadow: 1px 1px 1px #5b5b5b;
@@ -127,7 +127,7 @@ body, html, div
   background-color: #828282;
   border: 7px ridge #959595;
   text-shadow: 1px 1px 1px #5b5b5b;
-  width: 30.5%;
+  width: 40%;
 	border-radius: 3px;
 	display: block;
 	z-index: 450;

@@ -7,3 +7,11 @@ TITLE : the hell is a "web site"?
 - that's pretty neat
 - neocities is pretty cool but it takes years for the css to update
 - hopefully github won't do that
+
+10/24/23
+- good morning
+- i apologize for my daring display of skin in public!!
+- currently listening to the blue marble, you should too
+- i got sunshine, in a bag
+- please let me out of my fucking cage
+- lgplayer13 swore?! that's not allowed in this PG-13 society!!

@@ -67,6 +67,23 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+.scratch
+{
+	position: relative;
+	margin: auto;
+	bottom: -10px;
+	right: -12.5%;
+	left: 0;
+	background-color: #dccc23;
+	width: 25%;
+	height: 260px;
+	border: 7px ridge #ffc800;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+}
 .bottom-bar
 {
 	position: fixed;

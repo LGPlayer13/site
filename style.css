@@ -68,6 +68,23 @@ body, html, div
 	display: block;
 	text-align: center
 }
+.special
+{
+	position: relative;
+	margin: auto;
+	bottom: -10px;
+	right: 0;
+	left: 0;
+	background-color: darkviolet;
+	width: 50%;
+	height: 54px;
+	border: 7px ridge #a13cff;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center
+}
 .bottom-bar
 {
 	position: fixed;

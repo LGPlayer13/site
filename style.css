@@ -153,6 +153,23 @@ body, html, div
 	z-index: 500;
 }
 
+a:link
+{
+	color: darkorange;
+}
+a:visited
+{
+	color: orange;
+}
+a:hover
+{
+	color: gold;
+}
+a:active
+{
+	color: sandybrown;
+}
+
 .topnav
 {
 	position: sticky;
@@ -173,7 +190,7 @@ body, html, div
 {
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -192,21 +209,4 @@ body, html, div
 {
 	width: 2%;
 	text-align: right;
-}
-
-a:link
-{
-	color: darkorange;
-}
-a:visited
-{
-	color: orange;
-}
-a:hover
-{
-	color: gold;
-}
-a:active
-{
-	color: sandybrown;
 }

@@ -193,3 +193,20 @@ body, html, div
 	width: 2%;
 	text-align: right;
 }
+
+a:link
+{
+	color: darkorange;
+}
+a:visited
+{
+	color: orange;
+}
+a:hover
+{
+	color: gold;
+}
+a:active
+{
+	color: sandybrown;
+}

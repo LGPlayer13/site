@@ -53,6 +53,34 @@
       {
         display: block;
       }
+
+      .tooltip
+      {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Tooltip text */
+      .tooltip .tooltiptext
+      {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        width: 120px;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .tooltip:hover .tooltiptext
+      {
+        visibility: visible;
+      }
     </style>
   </head>
 <body>
@@ -61,10 +89,8 @@
       <a href="games">Games</a>
       <a href="updates">Updates</a>
       <a href="events">Events</a>
-      <a class="dropdown" href="blog">Blog</a>
-      <div class="dropdown-content">
-        <p>Last Post : <i>12/31/23</i></p>
-      </div>
+      <a class="tooltip" href="blog">Blog</a>
+        <span class="tooltiptext">Last Post : <i>12/31/23</i></span>
       <a href="about">About</a>
     </div>
     

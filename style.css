@@ -180,12 +180,12 @@ body, html, div
 }
 .topnav a:hover
 {
-	background-color: #ddd;
+	background-color: #ffc773;
 	color: black;
 }
 .active
 {
-  background-color: #c2c2c2;
+	background-color: #ffcf75;
 }
 
 .buttonIGM1-1

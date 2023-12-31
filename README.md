@@ -15,3 +15,10 @@ TITLE : the hell is a "web site"?
 - i got sunshine, in a bag
 - please let me out of my fucking cage
 - lgplayer13 swore?! that's not allowed in this PG-13 society!!
+
+12/31/23
+- new year's eve!
+- i cannot wait for 2024
+- george 1.5 will be the most depressing scratch game ever created
+- don't worry, sid's adventure will be the comedy game
+- have a good year everyone

@@ -51,6 +51,23 @@ body, html, div
 	display: block;
 	text-align: center
 }
+.quaternary
+{
+	position: relative;
+	margin: auto;
+	bottom: -10px;
+	right: 0;
+	left: 0;
+	background-color: grey;
+	width: 50%;
+	height: 260px;
+	border: 7px ridge #bababa;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 3px;
+	display: block;
+	text-align: center
+}
 .bottom-bar
 {
 	position: fixed;

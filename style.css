@@ -57,10 +57,10 @@ body, html, div
 	margin: auto;
 	bottom: -10px;
 	right: 0;
-	left: -12.5%;
+	left: 0;
 	background-color: #3bc995;
 	width: 50%;
-	height: 64px;
+	height: 56px;
 	border: 7px ridge #2cffb1;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -76,8 +76,8 @@ body, html, div
 	right: 0;
 	left: 0;
 	background-color: #dccc23;
-	width: 25%;
-	height: 260px;
+	width: 50%;
+	height: 56px;
 	border: 7px ridge #ffc800;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;

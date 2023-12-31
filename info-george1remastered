@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>LG Productions | Sid's Adventure</title>
+    <link rel = "icon" href = "https://lgplayer13.neocities.org/transparent.png" type = "image/x-icon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body
+      {
+      background-image: url("https://file.garden/Yhwc9XZFah3TM9iw/yellow-plaid.gif");
+      }
+      .button
+      {
+        position: relative;
+        background-color: #ffa418;
+        border: 5px ridge #ffc56c;
+        color: #000000;
+        padding: 6px 32px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: auto;
+        margin-bottom: 0;
+        cursor: pointer;
+      }
+
+      .button:hover
+      {
+        background-color: #ffc05e;
+        border: 5px ridge #ffc56c;
+      }
+
+      .backbox
+    	{
+    	 position: relative;
+    	 margin: auto;
+    	 bottom: -10px;
+    	 right: 0;
+    	 left: 0;
+    	 background-color: #959595;
+    	 width: 50%;
+    	 height: 54px;
+    	 border: 7px ridge #b3b3b3;
+    	 padding: 5px;
+    	 text-shadow: 1px 1px 1px #5b5b5b;
+    	 border-radius: 3px;
+    	 display: block;
+    	 text-align: center;
+    	}
+    </style>
+  </head>
+<body>
+    <div class="topnav">
+      <a href="https://lgplayer13.github.io/site/">Home</a>
+      <a href="games">Games</a>
+      <a href="updates">Updates</a>
+      <a href="events">Events</a>
+      <a href="blog">Blog</a>
+      <a href="about">About</a>
+    </div>
+
+    <div class="main">
+      <h3>GEORGE 1 REMASTERED</h3>
+      <p>Released : 5/7/23 // Updated : --/-/-- // Version : 1.0</p>
+      <p>Play through George's first 2D adventure, but back and better than ever!<br>This remaster includes overhauled graphics, new cutscenes, reworked mechanics, and bug fixes! </p></div>
+
+    <div class="scratch">
+      <p><a href="https://scratch.mit.edu/projects/698343364/">Play it here!</a></p>
+    </div>
+
+     <div class="backbox">
+      <p><a href="games"><<< Back to Games Page</a></p>
+    </div>
+
+    <div class="bottom-bar"><a href="https://scratch.mit.edu">Scratch</a> / <a href="https://orteil.dashnet.org/igm">Idle Game Maker</a> // 2023</div>
+  </body>
+</html>

@@ -31,28 +31,6 @@
         background-color: #ffc05e;
         border: 5px ridge #ffc56c;
       }
-      
-      .dropdown
-      {
-        position: relative;
-        display: inline-block;
-      }
-    
-      .dropdown-content
-      {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-      }
-      
-      .dropdown:hover .dropdown-content
-      {
-        display: block;
-      }
 
       .tooltip
       {
@@ -60,7 +38,6 @@
         display: inline-block;
       }
       
-      /* Tooltip text */
       .tooltip .tooltiptext
       {
         visibility: hidden;
@@ -70,13 +47,12 @@
         text-align: center;
         padding: 5px 0;
         border-radius: 7px;
-        width: 130px;
-        top: 110%;
+        width: 140px;
+        top: 100%;
         left: 50%;
-        margin-left: -90px;
+        margin-left: 50px;
       }
       
-      /* Show the tooltip text when you mouse over the tooltip container */
       .tooltip:hover .tooltiptext
       {
         visibility: visible;
@@ -89,8 +65,8 @@
       <a href="games">Games</a>
       <a href="updates">Updates</a>
       <a href="events">Events</a>
-      <a class="tooltip" href="blog">Blog
-        <span class="tooltiptext">Last Post : <i>12/31/23</i></span></a>
+      <a class="tooltip" href="blog">Blog</a>
+        <span class="tooltiptext">Last Post : <i>12/31/23</i></span>
       <a href="about">About</a>
     </div>
     

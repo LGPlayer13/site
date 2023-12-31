@@ -51,40 +51,6 @@ body, html, div
 	display: block;
 	text-align: center
 }
-.igm
-{
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: #3bc995;
-	width: 50%;
-	height: 54px;
-	border: 7px ridge #2cffb1;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
-	display: block;
-	text-align: center;
-}
-.scratch
-{
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: #dccc23;
-	width: 50%;
-	height: 54px;
-	border: 7px ridge #ffc800;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
-	display: block;
-	text-align: center;
-}
 .bottom-bar
 {
 	position: fixed;

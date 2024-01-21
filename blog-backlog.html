@@ -86,7 +86,38 @@
     
     <div class="main"><h3>BLOG BACKLOG</h3>
     <p>Good evening. Welcome to Dark Space. This is the first page for some previous blog posts.</p>
-    <p>Surely I've frolicked too hard. I shall search for my punishment.</p></div>
+    <p id="random-sentence"></p>
+    <script>
+      const sentences = [
+        "Surely I've frolicked too hard. I shall search for my punishment.",
+        "Fact: a hat is a very good rabbit habitat. Thanks for that.",
+        "I'm skipping work again, that's because I don't have a job.",
+        "Have you ever carried a dozen bricks down a brick road, through a brick door and into a brick house?",
+        "Please be sure to LIKE and SUBSCRIBE.",
+        "Actions speak louder than words, as long as you're mute.",
+        "Just let it happen, let it happen.",
+        "She's wrong-shaming me!",
+        "Whoops! An accident.",
+        "No. Don't you touch my macaroni.",
+        "Nope, you're nitpicking and biased. I win, bye bye.",
+        "Yeah, he's sitting there.",
+        "Nice one, you just caught yourself lacking. Oh my god, he- oh no, not again we ain't- WHAT THE F***CK!?",
+        "That's a f*cking rhino. And there's a crossbow on it.",
+        "Finally the game's giving me what I deserve. Where's the loot at, though? ...F**CK!!",
+        "The eight wonders of the world. Easter Island heads, the pyramids, y'know. Usless crap like that.",
+        "The soup is cold, and the salad is hot. How is that even possible?",
+        "So... what are the complaints here? This is awesome!",
+        "No, it's not an oversight. Does your life have a pause control?",
+        "Howdy! I wear a giant hat to compensate for...? Uhh... the sun?",
+        "We've got the vision, now let's have some fun."
+      ];
+
+      const randomIndex = Math.floor(Math.random() * sentences.length);
+      const randomSentence = sentences[randomIndex];
+
+      const randomSentenceElement = document.getElementById("random-sentence");
+      randomSentenceElement.innerHTML = randomSentence;
+    </script>
 
     <div class="secondary"><h3>sure of it now / <i>1/17/2024</i> / <i>5:46 PM PST</i></h3>
     <p>today was boring. today was boring. that's called "repetition", and we learned it in english<br>yeah, today was one of those days where "nothing happens", kinda like that one gumball episode</p>

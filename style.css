@@ -129,11 +129,12 @@ body, html, div
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: #ceb300;
+	background-color: #ce7c00;
 	width: 97.9%;
 	height: 20px;
-	border: 7px groove #ffde00;
+	border: 7px groove #ff9900;
 	padding: 10px;
+	color: white;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	text-align: center;
 	border-radius: 28px 28px 7px 7px;

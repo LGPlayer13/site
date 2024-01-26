@@ -27,10 +27,10 @@ body, html, div
 	background-color: lightgrey;
 	width: 50%;
 	height: 150px;
-	border: 7px ridge #f2f2f2;
+	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center;
 }
@@ -44,10 +44,10 @@ body, html, div
 	background-color: lightgrey;
 	width: 50%;
 	height: 260px;
-	border: 7px ridge #f2f2f2;
+	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center
 }
@@ -61,10 +61,10 @@ body, html, div
 	background-color: grey;
 	width: 50%;
 	height: 260px;
-	border: 7px ridge #bababa;
+	border: 7px groove #bababa;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center
 }
@@ -79,10 +79,10 @@ body, html, div
 	background-color: #3bc995;
 	width: 50%;
 	height: 52px;
-	border: 7px ridge #2cffb1;
+	border: 7px groove #2cffb1;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center;
 }
@@ -96,10 +96,10 @@ body, html, div
 	background-color: #dccc23;
 	width: 50%;
 	height: 52px;
-	border: 7px ridge #ffc800;
+	border: 7px groove #ffc800;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center;
 }
@@ -114,11 +114,11 @@ body, html, div
 	background-color: darkviolet;
 	width: 50%;
 	height: 52px;
-	border: 7px ridge #a13cff;
+	border: 7px groove #a13cff;
 	padding: 5px;
 	color: white;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 3px;
+	border-radius: 7px 28px;
 	display: block;
 	text-align: center
 }
@@ -132,11 +132,11 @@ body, html, div
 	background-color: #ceb300;
 	width: 97.9%;
 	height: 20px;
-	border: 7px ridge #ffde00;
+	border: 7px groove #ffde00;
 	padding: 10px;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 7px 7px 28px 28px;
 	display: block;
 	z-index: 1000;
 }

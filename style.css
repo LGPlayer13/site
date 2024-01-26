@@ -136,7 +136,7 @@ body, html, div
 	padding: 10px;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	text-align: center;
-	border-radius: 7px 7px 28px 28px;
+	border-radius: 28px 28px 7px 7px;
 	display: block;
 	z-index: 1000;
 }
@@ -179,10 +179,10 @@ a:active
 	top: 0;
 	overflow: hidden;
 	background-color: #ce7c00;
-	border: 7px ridge #ff9900;
+	border: 7px groove #ff9900;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	width: 40%;
-	border-radius: 3px;
+	border-radius: 7px 7px 28px 28px;
 	display: block;
 	z-index: 450;
 }

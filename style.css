@@ -122,6 +122,24 @@ body, html, div
 	display: block;
 	text-align: center
 }
+.headerinfo
+{
+        position: relative;
+      	margin: auto;
+      	right: 0;
+      	left: 0;
+        top: -5px;
+      	background-color: #df8600;
+      	width: 300px;
+      	height: 22px;
+      	border: 5px groove #ff9900;
+      	padding: 1px;
+        color: white;
+	text-shadow: 1px 1px 1px #5b5b5b;
+	border-radius: 0px 0px 20px 20px;
+	display: block;
+	text-align: center
+}
 .bottom-bar
 {
 	position: fixed;

@@ -242,7 +242,7 @@ a:active
 .topnav a
 {
 	/*float: left;*/
-	display: flex;
+	display: inline-flex;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;

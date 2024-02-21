@@ -241,8 +241,8 @@ a:active
 }
 .topnav a
 {
-	float: none;
-	display: inline-block;
+	float: left;
+	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;

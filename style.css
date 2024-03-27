@@ -287,6 +287,17 @@ body, html, div
       	text-align: center;
 }
 
+/* the "minipic" class is for small images contained in small boxes */
+.minipic
+{
+        position: relative;
+      	margin: auto;
+      	top: -13px;
+      	text-shadow: 1px 1px 1px #5b5b5b;
+      	display: block;
+      	text-align: center;
+}
+
 /* the "headerinfo" class is the area below the Navbar */
 .headerinfo
 {

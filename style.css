@@ -1,3 +1,4 @@
+/* for, y'know, basically the entire web site */
 body
 {
 	overflow-y: auto;
@@ -10,17 +11,20 @@ body
 	padding-bottom: 100px;
 }
 
+/* for the big text */
 h1
 {
 	color: navy;
 }
 
+/* font type and size */
 body, html, div
 {
 	font-family:"Malgun Gothic", sans-serif;
 	font-size:15px;
 }
 
+/* the "main" class is for boxes defining what the current page is about */
 .main
 {
 	position: relative;
@@ -38,6 +42,8 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+
+/* the "secondary" class is for larger boxes containing information and/or Short blog posts */
 .secondary
 {
 	position: relative;
@@ -45,16 +51,18 @@ body, html, div
 	bottom: -10px;
 	right: 0;
 	left: 0;
-	background-color: lightgrey;
+	background-color: #ababab;
 	width: 50%;
 	height: 260px;
-	border: 7px groove #f2f2f2;
+	border: 7px groove #c7c7c7;
 	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
+	text-shadow: 1px 1px 1px #545c34;
 	border-radius: 7px 28px;
 	display: block;
 	text-align: center
 }
+
+/* the "longsecondary" class is for lots of information and/or Long blog posts */
 .longsecondary
 {
 	position: relative;
@@ -72,6 +80,8 @@ body, html, div
 	display: block;
 	text-align: center
 }
+
+/* the "longersecondary" class is for Longer blog posts */
 .longersecondary
 {
 	position: relative;
@@ -89,6 +99,8 @@ body, html, div
 	display: block;
 	text-align: center
 }
+
+/* the "quaternary" class is for dark, large-ish boxes */
 .quaternary
 {
 	position: relative;
@@ -106,6 +118,8 @@ body, html, div
 	display: block;
 	text-align: center
 }
+
+/* the "quinary" class is used somewhere idk */
 .quinary
 {
 	position: relative;
@@ -123,6 +137,8 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+
+/* the "igm" class is for IGM-game-related boxes */
 .igm
 {
 	position: relative;
@@ -140,6 +156,8 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+
+/* the "scratch" class is for Scratch-game-related boxes */
 .scratch
 {
 	position: relative;
@@ -157,6 +175,8 @@ body, html, div
 	display: block;
 	text-align: center;
 }
+
+/* the "special" class is for special links to the Guestbook and other cool websites */
 .special
 {
 	position: relative;
@@ -175,6 +195,27 @@ body, html, div
 	display: block;
 	text-align: center
 }
+
+/* the "spotify" class is for information above spotify playlist embeds */
+.spotify
+{
+      	position: relative;
+      	margin: auto;
+      	bottom: -10px;
+      	right: 0;
+      	left: 0;
+      	background-color: #19b250;
+      	width: 50%;
+      	height: 52px;
+      	border: 7px groove #1ed760;
+      	padding: 5px;
+      	text-shadow: 1px 1px 1px #5b5b5b;
+      	border-radius: 7px 28px;
+      	display: block;
+      	text-align: center;
+}
+
+/* the "disc" class is for the discs */
 .disc
 {
 	position: relative;
@@ -194,6 +235,59 @@ body, html, div
 	text-align: center
 }
 
+/* the "secondary" class is for larger boxes containing information */
+.extrainfo
+{
+    	 position: relative;
+    	 margin: auto;
+    	 bottom: -10px;
+    	 right: 0;
+    	 left: 0;
+    	 background-color: #959595;
+    	 width: 50%;
+    	 height: 54px;
+    	 border: 7px groove #b3b3b3;
+    	 padding: 5px;
+    	 text-shadow: 1px 1px 1px #5b5b5b;
+    	 border-radius: 7px 28px;
+    	 display: block;
+    	 text-align: center;
+}
+
+/* the "shortbox" class is for short boxes, typically for going back a page */
+.shortbox
+{
+    	 position: relative;
+    	 margin: auto;
+    	 bottom: -10px;
+    	 right: 0;
+    	 left: 0;
+    	 background-color: #959595;
+    	 width: 50%;
+    	 height: 54px;
+    	 border: 7px groove #b3b3b3;
+    	 padding: 5px;
+    	 text-shadow: 1px 1px 1px #5b5b5b;
+    	 border-radius: 7px 28px;
+    	 display: block;
+    	 text-align: center;
+}
+
+/* the "pic" class is for images */
+.pic
+{
+        position: relative;
+      	margin: auto;
+      	bottom: -5px;
+      	right: 0;
+      	left: 0;
+      	padding-top: 5px;
+      	text-shadow: 1px 1px 1px #5b5b5b;
+      	display: block;
+      	text-align: center;
+}
+
+/* the "headerinfo" class is the area below the Navbar */
 .headerinfo
 {
         position: relative;
@@ -212,6 +306,8 @@ body, html, div
 	display: block;
 	text-align: center
 }
+
+/* the "bottom-bar" class is just the footer */
 .bottom-bar
 {
 	position: fixed;
@@ -232,6 +328,7 @@ body, html, div
 	z-index: 1000;
 }
 
+/* i don't think this is used at all tbh */
 .header
 {
 	background-color: lightgrey;
@@ -244,6 +341,7 @@ body, html, div
 	z-index: 500;
 }
 
+/* these following 4 css thingys are for link colors */
 a:link
 {
 	color: darkorange;
@@ -261,6 +359,7 @@ a:active
 	color: sandybrown;
 }
 
+/* the "topnav" class is for the Navbar */
 .topnav
 {
 	position: sticky;
@@ -277,6 +376,8 @@ a:active
 	display: block;
 	z-index: 450;
 }
+
+/* the "topnav a" class is for the Navbar buttons */
 .topnav a
 {
 	float: left;
@@ -296,6 +397,7 @@ a:active
 	background-color: #ffcf75;
 }
 
+/* i have no clue what this is for tbh, it's probably pretty old */
 .buttonIGM1-1
 {
 	width: 2%;

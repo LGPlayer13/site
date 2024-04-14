@@ -5,71 +5,44 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      .button
-      {
-        position: relative;
-        background-color: #ffa418;
-        border: 5px ridge #ffc56c;
-        color: #000000;
-        padding: 6px 32px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-top: auto;
-        margin-bottom: 0;
-        cursor: pointer;
-      }
-
-      .button:hover
-      {
-        background-color: #ffc05e;
-        border: 5px ridge #ffc56c;
-      }
-    </style>
   </head>
 <body>
-    <div class="topnav">
-      <a href="https://lgplayer13.github.io/site/">Home</a>
-      <a class="active" href="games">Games</a>
-      <a href="updates">Updates</a>
-      <a href="events">Events</a>
-      <a href="lore">Lore</a>
-      <a style="float:right" href="about">About</a>
-      <a style="float:right" href="blog">Blog</a>
-    </div>
-
-    <span class="headerinfo"><a href="youtube-channel"><img src="./images/youtubelogo.svg" title="watch me on vimeo guys" style="width:24px;height:24px;"></a> <a href="https://discord.gg/v7NaVBTwnD"><img src="./images/discordlogo.svg" title="the world's 27th most dead discord server" style="width:24px;height:24px;"></a> <a href="https://www.twitch.tv/lgplayer13"><img src="./images/twitchlogo.svg" title="i'm not even sure why i made this" style="width:24px;height:24px;"></a> <a href="https://open.spotify.com/user/31zg27lmkr47ecweu5w5tzoh437e?si=ad268f7f8f7b4a94"><img src="./images/spotifylogo.svg" title="another example of LG shoving his music taste in peoples' faces" style="width:24px;height:24px;"></a> <a href="https://scratch.mit.edu/users/LGameMaker13"><img src="./images/scratch.png" title="i hate blocklive with a burning passion" style="width:24px;height:24px;"></a> <a href="https://lgplayer13.itch.io/"><img src="./images/itch io logo.svg" title="the name of this website sounds like one of those 'unblocked games' sites" style="width:24px;height:24px;"></a></span>
+    <ul class="topnav">
+      <li><a href="https://lgplayer13.github.io/site/">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="blog">Blog</a></li>
+      <li><a class="active" href="games">Games</a></li>
+      <li><a href="updates">Updates</a></li>
+      <li><a href="lore">Lore</a></li>
+      <li><a href="socials">Socials</a></li>
+    </ul>
   
-    <div class="main">
-      <h3>GAMES & PROJECTS</h3>
-      <p>These are my most recent games and their updates.</p>
-      <p>Most recent games are at the top, getting more dated as they go down.<br>Dates shown are of a game's release date.</p>
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#e5a142;width:48%;height:40px;border:7px groove #e3b77b;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:28px 7px;display;block;font-size:15px;text-align:center;z-index:-15">
+      <b>• GAMES & PROJECTS •</b><br><marquee behavior="scroll" direction="left"><b>Latest Release:</b> Sid's Adventure | Widescreen Port</marquee>
     </div>
 
-    <div class="scratch" style="background-color:#ff8813;border:7px groove #ffb700;text-shadow:1px 1px 1px #5c4734;">
+    <div class="game" style="background-color:#ff8813;border:7px groove #ffb700;text-shadow:1px 1px 1px #5c4734;">
       <p><img class="minipic" title="the epic amazing tales adventures saga show of geroge and kory" src="./images/g15_icon.svg" style="float:left;width:48px;height:48px;"><b>The George Series</b> / <i>2021-2024</i> / Platformers</p>
     </div>
     <span style="background-color:#02d2a9;border:7px groove #02e2b5;text-shadow:1px 1px 1px #345c50;width:50%;height:22px;display:block;text-align:center;margin:auto;margin-top:3px;border-radius:14px 0px 7px 28px;"><a href="info-2">George 1R</a> / George 1.5 / <a href="https://scratch.mit.edu/projects/636390190/">Lore Project</a></span>
 
-    <div class="scratch" style="background-color:#ffc794;border:7px groove #ffd9b5;text-shadow:1px 1px 1px #5c4d34;">
+    <div class="game" style="background-color:#ffc794;border:7px groove #ffd9b5;text-shadow:1px 1px 1px #5c4d34;">
       <p><img class="minipic" title="a bit of a lot, i guess" src="./images/remcol_icon.svg" style="float:left;width:48px;height:48px;"><b>LG's Remastered Collection</b> / <i>Mar. 2024</i> / Collection</p>
     </div>
     <span style="background-color:#7e3dff;border:7px groove #925cff;text-shadow:1px 1px 1px #48345c;width:50%;height:22px;display:block;text-align:center;margin:auto;margin-top:3px;border-radius:14px 0px 7px 28px;"><a href="info-4">Remastered Collection</a> / <a href="info-5">Infinity Player+</a> / <a href="info-6">EggWars+</a></span>
 
-    <div class="scratch" style="background-color:#81cfff;border:7px groove #4cbaff;text-shadow:1px 1px 1px #345c50;">
+    <div class="game" style="background-color:#81cfff;border:7px groove #4cbaff;text-shadow:1px 1px 1px #345c50;">
       <p><img class="minipic" title="sid chapter 2, coming out 2222" src="./images/sid_icon.svg" style="float:left;width:48px;height:48px;"><b>Sid's Adventure</b> / <i>Sep. 2023</i> / Side-scrolling</p>
     </div>
     <span style="background-color:#af5600;border:7px groove #42dd00;text-shadow:1px 1px 1px #000000;width:50%;height:22px;display:block;text-align:center;margin:auto;margin-top:3px;border-radius:14px 0px 7px 28px;"><a href="info-1">Original</a> / <a href="https://lgplayer13.itch.io/sids-adventure-widescreen-port">Widescreen Port</a></span>
   
-    <div class="igm">
-      <p><b>Fire Forge</b> / <i>Coming Mid 2024</i> / Text-based tech & storytelling // Unavailable.</p>
+    <div class="game" style="background-color:#3bc995;border:7px groove #2cffb1;text-shadow:1px 1px 1px #345c50;">
+      <p><img class="minipic" title="sid chapter 2, coming out 2222" src="./images/swordicon.png" style="float:left;width:48px;height:48px;"><b>IGM Games</b> / <i>2022-2024</i> / Point-&-Click</p>
     </div>
+    <span style="background-color:#9e2100;border:7px groove #e03900;text-shadow:1px 1px 1px #000000;width:50%;height:22px;display:block;text-align:center;margin:auto;margin-top:3px;border-radius:14px 0px 7px 28px;"><a href="info-3">The Lost Labyrinths</a> / Fire Forge</span>
 
-    <div class="igm">
-      <p><b>The Lost Labyrinths</b> / <i>Aug. 2022</i> / Text-based RPG // <a href="info-3">Play It!</a></p>
+    <div class="bottom-bar">
+      © 2023-2024 <b>LG Productions</b> • Built with <a href="https://pages.github.com/">GitHub</a> and <a href="https://brackets.io/">Brackets</a>
     </div>
-
-    <div class="bottom-bar">© 2023-2024 <b>LG Productions</b> // Built with <a href="https://pages.github.com/">Github</a></div>
   </body>
 </html>

@@ -138,8 +138,8 @@ body, html, div
 	text-align: center;
 }
 
-/* the "igm" class is for IGM-game-related boxes */
-.igm
+/* the "game" class is for Scratch/IGM-game related boxes */
+.game
 {
 	position: relative;
 	margin: auto;
@@ -150,25 +150,6 @@ body, html, div
 	width: 50%;
 	height: 52px;
 	border: 7px groove #2cffb1;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center;
-}
-
-/* the "scratch" class is for Scratch-game-related boxes */
-.scratch
-{
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: #dccc23;
-	width: 50%;
-	height: 52px;
-	border: 7px groove #ffc800;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
@@ -193,7 +174,7 @@ body, html, div
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 /* the "spotify" class is for information above spotify playlist embeds */
@@ -353,64 +334,57 @@ body, html, div
 }
 
 /* these following 4 css thingys are for link colors */
-a:link
-{
+a:link {
 	color: darkorange;
 }
-a:visited
-{
+a:visited {
 	color: orange;
 }
-a:hover
-{
+a:hover {
 	color: gold;
 }
-a:active
-{
+a:active {
 	color: sandybrown;
 }
 
 /* the "topnav" class is for the Navbar */
-.topnav
-{
+.topnav {
 	position: sticky;
-	margin: auto;
-	right: 0;
-	left: 0;
-	top: 0;
+    margin: 0;
+    padding: 0;
 	overflow: hidden;
 	background-color: #ce7c00;
 	border: 7px groove #ff9900;
+    list-style: none;
 	text-shadow: 1px 1px 1px #5b5b5b;
-	width: 40%;
+	width: 99.3%;
 	border-radius: 7px 7px 28px 28px;
-	display: block;
-	z-index: 450;
+    text-align: center;
+	z-index: 1;
+}
+
+.topnav li {
+    display: inline;
 }
 
 /* the "topnav a" class is for the Navbar buttons */
-.topnav a
-{
-	float: left;
-	display: block;
+.topnav a {
 	color: white;
-	text-align: center;
+	display: inline-block;
 	padding: 14px 16px;
 	text-decoration: none;
+    font-size: 17px;
 }
-.topnav a:hover
-{
+.topnav a:hover {
 	background-color: #ffc773;
 	color: black;
 }
-.active
-{
+.active {
 	background-color: #ffcf75;
 }
 
 /* i have no clue what this is for tbh, it's probably pretty old */
-.buttonIGM1-1
-{
+.buttonIGM1-1 {
 	width: 2%;
 	text-align: right;
 }

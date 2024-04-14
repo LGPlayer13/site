@@ -5,43 +5,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      .button
-      {
-        position: relative;
-        background-color: #ffa418;
-        border: 5px ridge #ffc56c;
-        color: #000000;
-        padding: 6px 32px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-top: auto;
-        margin-bottom: 0;
-        cursor: pointer;
-      }
-      
-      .button:hover
-      {
-        background-color: #ffc05e;
-        border: 5px ridge #ffc56c;
-      }
-    </style>
   </head>
 <body>
-    <div class="topnav">
-      <a href="https://lgplayer13.github.io/site/">Home</a>
-      <a href="games">Games</a>
-      <a href="updates">Updates</a>
-      <a href="events">Events</a>
-      <a href="lore">Lore</a>
-      <a style="float:right" href="about">About</a>
-      <a style="float:right" class="active" href="blog">Blog</a>
-    </div>
-
-    <span class="headerinfo"><a href="https://www.youtube.com/@LGPlayer13"><img src="./images/youtubelogo.svg" title="watch me on vimeo guys" style="width:24px;height:24px;"></a> <a href="https://discord.gg/v7NaVBTwnD"><img src="./images/discordlogo.svg" title="the world's 27th most dead discord server" style="width:24px;height:24px;"></a> <a href="https://www.twitch.tv/lgplayer13"><img src="./images/twitchlogo.svg" title="i'm not even sure why i made this" style="width:24px;height:24px;"></a> <a href="https://open.spotify.com/user/31zg27lmkr47ecweu5w5tzoh437e?si=ad268f7f8f7b4a94"><img src="./images/spotifylogo.svg" title="another example of LG shoving his music taste in peoples' faces" style="width:24px;height:24px;"></a> <a href="https://scratch.mit.edu/users/LGameMaker13"><img src="./images/scratch.png" title="i hate blocklive with a burning passion" style="width:24px;height:24px;"></a> <a href="https://lgplayer13.itch.io/"><img src="./images/itch io logo.svg" title="the name of this website sounds like one of those 'unblocked games' sites" style="width:24px;height:24px;"></a></span>
+    <ul class="topnav">
+      <li><a href="https://lgplayer13.github.io/site/">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a class="active" href="blog">Blog</a></li>
+      <li><a href="games">Games</a></li>
+      <li><a href="updates">Updates</a></li>
+      <li><a href="lore">Lore</a></li>
+      <li><a href="socials">Socials</a></li>
+    </ul>
   
-    <div class="main"><h3>BLOG</h3>
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#e5a142;width:48%;height:18px;border:7px groove #e3b77b;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:28px 7px;display;block;font-size:15px;text-align:center;z-index:-15">
+      <b>• BLOG •</b>
+    </div>
+  
+    <div class="main" style="height:102px;background-color:#e1af68;border-color:#e1c49d;">
       <p>You should expect 1-2 new posts every week. A <a style="color:#b57c1e;">short</a> post may come in-between.<br><b><a style="color:#8aab00;">Green</a></b> posts are about normal topics, <b><a style="color:#0005ab;">blue</a></b> posts are about deep topics, <b><a style="color:#ab0000;">red</a></b> posts are angry rants.</p>
       <p id="random-sentence"></p>
       <script>
@@ -88,7 +68,6 @@
         "Come on guys, stop mucking around. We only have five minutes until our show's on.",
         "I have risen, and the shaking has fallen.",
         "Judas, do not make it bad. -Jesus",
-        "You know, I love me some CSS previewing.",
         "Nahm ram xi mai cotton cotton cotton cotton cotton cotton cotton cotton store",
         "I knew I shouldn't have gotten those dodgy breast implants.",
         "Franklin grinned.",
@@ -104,6 +83,8 @@
         "It's so hard to get a plain cheese pizza these days.",
         "Alright, your speech organs seem fine.",
         "Spring your miracle, competite your level.",
+        "I'm married to my job, but my job said we should see other people.",
+        "Bush hid the facts.",
         "We've got the vision, now let's have some fun."
       ];
 
@@ -115,16 +96,21 @@
       </script>
     </div>
 
-    <div class="longsecondary" style="background-color:#b7d536;border:7px groove #d3e876;text-shadow:1px 1px 1px #545c34;"><h3><a style="color:#323e00;">kid AE</a> / <i>4/9/2024</i> / <i>11:23 PM PST</i> / <a style="color:#8ab51e;">long</a></h3>
-      <p>i can't stop singing this bloody tune, tune, tune</p>
-      <p>hey gang. i'm supposed to be writing a three-paragraph essay for some theology assignment, but it includes watching a 10-minute-long video and i just do not feel like sitting through that. trust me, i've heard enough middle-aged men telling me about jesus christ and how much ballin' he partakes in. plus, i don't want any religious bullcrap showing up on my recommended, so i'll just make up something and call it a day. if my teacher asks where my information comes from, i'll just use the handy "source: trust me bro"</p>
-      <p>george 1 and a half: plus 0 progress is going fairly well, i'm starting to adapt the usage of in-game cutscenes because animated cutscenes take a while to make, and they also add <i>a lot</i> to the asset count. after i wrap up the level art for level 1, i'll probably get the framework for bosses sorted out, and i'll proceed to level 2 design. i've had plenty of ideas for trailers and music to go along with said trailers for a while now, so i might end up making a teaser trailer for you all soon. it could take a while, though, so don't get your hopes up just yet</p>
-      <p>the announcement and release of the official <a href="https://www.betterthanadventure.net/">bta website</a> intrigued me, especially since it's been almost 3 years since the mod's conception. the website itself is very polished and neatly designed, even featuring the cute, yet informative artwork of one of the community's most prominent artists. the launch, however, wasn't exactly smooth, mainly because the website basically had a mini-DDoS attack from the flood of people clicking on the same link simultaneously</p>
-      <p>i actually thought about giving this web site another redesign, but then i remembered that i'm fairly mid at CSS and don't exactly know how keyframes work. although i <i>am</i> taking a web design course next year, i don't think i'll make any major design changes to the site until i feel ready to announce one (and get feedback on prototype designs, of course). the next thing i'll do is probably fulfill that "secret CSS test page" i proposed a little while back, you'll just have to find it on your own when i eventually make it public ;)</p>
+    <div class="longersecondary" style="background-color:#b7d536;border:7px groove #d3e876;text-shadow:1px 1px 1px #545c34;"><h3><a style="color:#323e00;">re-hash</a> / <i>4/14/2024</i> / <i>11:51 AM PST</i> / <a style="color:#1eb584;">longer</a></h3>
+      <p>the web site looks different, so now i'm going to file a noise complaint</p>
+      <p>good morning every one. after doing lots of thinking and back-and-forth-ing, i've decided to move to Brackets for future web site development. to learn why, read <a href="devlog2">this</a>. now that the web site has updating to version 1.2 in the span of less than three days, i should probably run you through what's been changed, removed, and added. alright time for professional moment: <i>i think this new update will provide a smoother browsing experience for all of our viewers and loyal subscribers, as this company is strictly satisfaction-oriented</i></p>
+      <p>first things first, the little bar below the Navbar (the one with the all the icons) has been removed in favor of the <a href="socials">Socials</a> page. i've been thinking that the little bar looks ugly for a while now, so i'm glad it's been trashed. next up, <i>most</i> of the gray boxes containing information for each page have been removed and replaced with tinier bars that get straight to the point- the title of the page. this web site used to use the color gray waaaay to much, so i'm glad to make this web site more colorful and lively</p>
+      <p>the Updates page no longer uses plain text for every update, but instead every major project/web site update will have its own neat box (with an icon!) that quickly tells you what's new. each one will even have its own <b>devlog</b> linked with it! minor updates will get their own box, too, but they won't have an icon or devlog, sadly. the Socials page also uses a similar system, but instead of linking you to a devlog, they just send you to their respective websites</p>
+      <p>as for removed stuff, the Blog-3, Cory Lore, CSS Previewing, George Lore, and Youtube Channel pages have all been terminated. some of these pages were outdated and useless, some were just plain useless, and one of them was a new employee that didn't fit well with the others. every other page has been saved and updated, but you might find them in different spots. you probably didn't even know some of those pages existed, and i'm not sure why i kept them for so long</p>
+      <p>alright, enough web site blabber. it's time for actual blog talking. school hasn't been as bad as i thought it would be, except for the part where literally <i>everything important</i> occurs when i'm at school. that's the nicest part. as for game development, george 1.5 development has slowed down a bit, but i plan to get things done when monday comes around. that might even include a new <b>teaser trailer</b> for you all to see what the game actually looks and plays like! i'm super excited to show this new engine to you all, as i'm extremely proud of what's been cooking<br>lex has also been cooking up g1.5's soundtrack, and i think it sounds pretty great. we have a neat idea for a soundtrack project that we mentioned in the Terraria 1.0.6.4 video, but i'm not sure when that'll come to fruition. we <i>could</i> make it now, but we should probably work on the actual game, first. plus, the soundtrack isn't even done yet. while it might take a while, i <i>promise</i> i'll get this game released. i'd love to say by the end of 2024, but i'm not setting <i>any</i> deadlines for myself</p>
     </div>
   
-    <div class="shortbox"><p><b>Most Recent Posts</b> / <a href="blog-backlog">Blog Backlog</a></p></div>
+    <div class="shortbox">
+      <p><b>Most Recent Posts</b> / <a href="blog-backlog">Blog Backlog</a></p>
+    </div>
     
-    <div class="bottom-bar">© 2023-2024 <b>LG Productions</b> // Built with <a href="https://pages.github.com/">Github</a></div>
+    <div class="bottom-bar">
+      © 2023-2024 <b>LG Productions</b> • Built with <a href="https://pages.github.com/">GitHub</a> and <a href="https://brackets.io/">Brackets</a>
+    </div>
   </body>
 </html>

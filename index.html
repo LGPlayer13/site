@@ -5,58 +5,44 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      .button
-      {
-        position: relative;
-        background-color: #ffa418;
-        border: 5px ridge #ffc56c;
-        color: #000000;
-        padding: 6px 32px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-top: auto;
-        margin-bottom: 0;
-        cursor: pointer;
-      }
-      
-      .button:hover
-      {
-        background-color: #ffc05e;
-        border: 5px ridge #ffc56c;
-      }
-    </style>
   </head>
 <body>
-    <div class="topnav">
-      <a class="active" href="">Home</a>
-      <a href="games">Games</a>
-      <a href="updates">Updates</a>
-      <a href="events">Events</a>
-      <a href="lore">Lore</a>
-      <a style="float:right" href="about">About</a>
-      <a style="float:right" href="blog">Blog</a>
-    </div>
-
-    <span class="headerinfo"><a href="youtube-channel"><img src="./images/youtubelogo.svg" title="watch me on vimeo guys" style="width:24px;height:24px;"></a> <a href="https://discord.gg/v7NaVBTwnD"><img src="./images/discordlogo.svg" title="the world's 27th most dead discord server" style="width:24px;height:24px;"></a> <a href="https://www.twitch.tv/lgplayer13"><img src="./images/twitchlogo.svg" title="i'm not even sure why i made this" style="width:24px;height:24px;"></a> <a href="https://open.spotify.com/user/31zg27lmkr47ecweu5w5tzoh437e?si=ad268f7f8f7b4a94"><img src="./images/spotifylogo.svg" title="another example of LG shoving his music taste in peoples' faces" style="width:24px;height:24px;"></a> <a href="https://scratch.mit.edu/users/LGameMaker13"><img src="./images/scratch.png" title="i hate blocklive with a burning passion" style="width:24px;height:24px;"></a> <a href="https://lgplayer13.itch.io/"><img src="./images/itch io logo.svg" title="the name of this website sounds like one of those 'unblocked games' sites" style="width:24px;height:24px;"></a></span>
+    <ul class="topnav">
+      <li><a class="active" href="">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="blog">Blog</a></li>
+      <li><a href="games">Games</a></li>
+      <li><a href="updates">Updates</a></li>
+      <li><a href="lore">Lore</a></li>
+      <li><a href="socials">Socials</a></li>
+    </ul>
     
-    <div class="main"><img src="./images/lgproductionslogo.svg" title="this graphic is the peak of my scratch career, can we get 3 likes guys" style="width:310px;height:51px;">
+    <div class="main" style="background-color:#ffb349;border-color:#ffcf8d;"><img src="./images/lgproductionslogo.svg" title="this graphic is the peak of my scratch career, can we get 3 likes guys" style="width:310px;height:51px;">
       <p>Welcome to the official website for <b>LG Productions</b>, the creator of the George series.</p>
       <p>Here you can find my games, project updates and events, my blog, important lore, and info about me.<br>Expect frequent updates, as I really enjoy working on this web site!</p>
     </div>
+  
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#e5a142;width:48%;height:18px;border:7px groove #e3b77b;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:28px 7px;display;block;font-size:15px;text-align:center;z-index:-15">
+      <b>• QUICK LINKS •</b>
+    </div>
+  
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#5f98f4;width:50%;height:105px;border:7px groove #0d8aff;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:7px 28px;display;block;">
+      <img src="./images/site_games.svg" title="absolute gaming for gamers 13 and down" style="float:left;padding-right:5px;"><a href="games" style="font-size:20px;text-shadow:1.5px 1.5px 1.5px #5b5b5b;"><b><u>Games Page</u></b></a><br><i>Check out my top games and projects on Scratch and IGM!</i><br>(e.g. George 1R, Sid's Adventure, EggWars+)<br><q style="font-size:12px">Games & Projects</q>
+    </div>
     
-    <div class="secondary" style="background-color:#ababab;border:7px groove #c7c7c7;text-shadow:1px 1px 1px #545c34;">
-      <!-- <marquee behavior="scroll" direction="left"><b>It's my birthday today! Check out the new update!!</b></marquee> -->
-      <h3>QUICK ANNOUNCEMENTS</h3>
-      <p><i>4/6/2024</i> / Released a <a href="https://lgplayer13.itch.io/sids-adventure-widescreen-port">widescreen port</a> of <b>Sid's Adventure</b> on itch.io!</p>
-      <p><i>3/27/2024</i> / Established the new <a href="youtube-channel">Youtube Channel</a> page. You can find it by clicking on the first icon below the Navbar.</p>
-      <p><i>More announcements will be posted later...</i></p>
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#8ff45f;width:50%;height:105px;border:7px groove #46ff0d;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:7px 28px;display;block;">
+      <img src="./images/site_blog.svg" title="welcome to episode 298 of my vlog where i throw my cat over a chair" style="float:left;padding-right:5px;"><a href="blog" style="font-size:20px;text-shadow:1.5px 1.5px 1.5px #5b5b5b;"><b><u>Blog Page</u></b></a><br><i>Read posts about what I'm doing and how I'm feeling every-so-often.</i><br>New posts are uploaded 1-2 times per week.<br><q style="font-size:12px">Personal Updates & Rants</q>
+    </div>
+  
+    <div style="position:relative;margin:auto;bottom:-10px;right:0;left:0;background-color:#eb5ff4;width:50%;height:105px;border:7px groove #f10dff;padding:4px;color:white;text-shadow:1px 1px 1px #5b5b5b;border-radius:7px 28px;display;block;">
+      <img src="./images/site_updates.svg" title="the updat(o?)er" style="float:left;padding-right:5px;"><a href="updates" style="font-size:20px;text-shadow:1.5px 1.5px 1.5px #5b5b5b;"><b><u>Updates Page</u></b></a><br><i>Learn about the latest updates and events on my projects.</i><br>New projects and developments are constantly being made, so be sure to stop by!<br><q style="font-size:12px">Project/Web Site Updates</q>
     </div>
 
-    <div class="special"><p>Sign the official <a href="http://lgproductions.123Guestbook.com/">LG Productions Guestbook</a>!</p></div>
+    <div class="special" style="bottom:-10px"><p>Sign the official <a href="http://lgproductions.123Guestbook.com/">LG Productions Guestbook</a>!</p></div>
     <iframe src="https://www.123guestbook.com/scroller.php?id=lgproductions" style="border:7px groove #9036e5;width:50%;height:15px;display:block;margin:auto;margin-top:3px;border-radius:14px 0px 7px 28px;" frameborder="no" scrolling="no"></iframe>
   
-    <div class="bottom-bar">© 2023-2024 <b>LG Productions</b> // Built with <a href="https://pages.github.com/">Github</a></div>
+    <div class="bottom-bar">
+      © 2023-2024 <b>LG Productions</b> • Built with <a href="https://pages.github.com/">GitHub</a> and <a href="https://brackets.io/">Brackets</a>
+    </div>
   </body>
 </html>

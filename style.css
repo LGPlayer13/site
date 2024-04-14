@@ -356,6 +356,7 @@ a:active {
 	background-color: #ce7c00;
 	border: 7px groove #ff9900;
     list-style: none;
+    list-style-type: none;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	width: 99.3%;
 	border-radius: 7px 7px 28px 28px;

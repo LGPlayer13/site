@@ -1,32 +1,28 @@
 /* for, y'know, basically the entire web site */
-body
-{
+body {
 	overflow-y: auto;
 	margin-bottom: 0%;
 	background-image: url("https://file.garden/Yhwc9XZFah3TM9iw/purplebg.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
 	padding-bottom: 100px;
 }
 
 /* for the big text */
-h1
-{
+h1 {
 	color: navy;
 }
 
 /* font type and size */
-body, html, div
-{
+body, html, div {
 	font-family:"Malgun Gothic", sans-serif;
 	font-size:15px;
 }
 
 /* the "main" class is for boxes defining what the current page is about */
-.main
-{
+.main {
 	position: relative;
 	margin: auto;
 	bottom: -5px;
@@ -34,7 +30,7 @@ body, html, div
 	left: 0;
 	background-color: lightgrey;
 	width: 50%;
-	height: 150px;
+	height: auto;
 	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -44,8 +40,7 @@ body, html, div
 }
 
 /* the "secondary" class is for larger boxes containing information and/or Short blog posts */
-.secondary
-{
+.secondary {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -53,7 +48,7 @@ body, html, div
 	left: 0;
 	background-color: #ababab;
 	width: 50%;
-	height: 260px;
+	height: auto;
 	border: 7px groove #c7c7c7;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #545c34;
@@ -63,8 +58,7 @@ body, html, div
 }
 
 /* the "longsecondary" class is for lots of information and/or Long blog posts */
-.longsecondary
-{
+.longsecondary {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -72,7 +66,7 @@ body, html, div
 	left: 0;
 	background-color: lightgrey;
 	width: 50%;
-	height: 540px;
+	height: auto;
 	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -82,8 +76,7 @@ body, html, div
 }
 
 /* the "longersecondary" class is for Longer blog posts */
-.longersecondary
-{
+.longersecondary {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -91,7 +84,7 @@ body, html, div
 	left: 0;
 	background-color: lightgrey;
 	width: 50%;
-	height: 720px;
+	height: auto;
 	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -101,8 +94,7 @@ body, html, div
 }
 
 /* the "quaternary" class is for dark, large-ish boxes */
-.quaternary
-{
+.quaternary {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -110,7 +102,7 @@ body, html, div
 	left: 0;
 	background-color: grey;
 	width: 50%;
-	height: 260px;
+	height: auto;
 	border: 7px groove #bababa;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -119,9 +111,8 @@ body, html, div
 	text-align: center
 }
 
-/* the "quinary" class is used somewhere idk */
-.quinary
-{
+/* the "quinary" class is for Tiny blog posts */
+.quinary {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -129,7 +120,7 @@ body, html, div
 	left: 0;
 	background-color: lightgrey;
 	width: 50%;
-	height: 120px;
+	height: auto;
 	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -139,8 +130,7 @@ body, html, div
 }
 
 /* the "game" class is for Scratch/IGM-game related boxes */
-.game
-{
+.game {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -148,7 +138,7 @@ body, html, div
 	left: 0;
 	background-color: #3bc995;
 	width: 50%;
-	height: 52px;
+	height: auto;
 	border: 7px groove #2cffb1;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -158,8 +148,7 @@ body, html, div
 }
 
 /* the "special" class is for special links to the Guestbook and other cool websites */
-.special
-{
+.special {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -167,7 +156,7 @@ body, html, div
 	left: 0;
 	background-color: darkviolet;
 	width: 50%;
-	height: 52px;
+	height: auto;
 	border: 7px groove #a13cff;
 	padding: 5px;
 	color: white;
@@ -178,8 +167,7 @@ body, html, div
 }
 
 /* the "spotify" class is for information above spotify playlist embeds */
-.spotify
-{
+.spotify {
       	position: relative;
       	margin: auto;
       	bottom: -10px;
@@ -187,7 +175,7 @@ body, html, div
       	left: 0;
       	background-color: #19b250;
       	width: 50%;
-      	height: 52px;
+      	height: auto;
       	border: 7px groove #1ed760;
       	padding: 5px;
       	text-shadow: 1px 1px 1px #5b5b5b;
@@ -197,8 +185,7 @@ body, html, div
 }
 
 /* the "disc" class is for the discs */
-.disc
-{
+.disc {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -206,7 +193,7 @@ body, html, div
 	left: 0;
 	background-color: lightgray;
 	width: 50%;
-	height: 207px;
+	height: auto;
 	border: 7px groove #f2f2f2;
 	padding: 5px;
 	color: white;
@@ -217,91 +204,66 @@ body, html, div
 }
 
 /* the "secondary" class is for larger boxes containing information */
-.extrainfo
-{
-    	 position: relative;
-    	 margin: auto;
-    	 bottom: -10px;
-    	 right: 0;
-    	 left: 0;
-    	 background-color: #959595;
-    	 width: 50%;
-    	 height: 54px;
-    	 border: 7px groove #b3b3b3;
-    	 padding: 5px;
-    	 text-shadow: 1px 1px 1px #5b5b5b;
-    	 border-radius: 7px 28px;
-    	 display: block;
-    	 text-align: center;
+.extrainfo {
+    position: relative;
+    margin: auto;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    background-color: #959595;
+    width: 50%;
+    height: auto;
+    border: 7px groove #b3b3b3;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #5b5b5b;
+    border-radius: 7px 28px;
+    display: block;
+    text-align: center;
 }
 
 /* the "shortbox" class is for short boxes, typically for going back a page */
-.shortbox
-{
-    	 position: relative;
-    	 margin: auto;
-    	 bottom: -10px;
-    	 right: 0;
-    	 left: 0;
-    	 background-color: #959595;
-    	 width: 50%;
-    	 height: 54px;
-    	 border: 7px groove #b3b3b3;
-    	 padding: 5px;
-    	 text-shadow: 1px 1px 1px #5b5b5b;
-    	 border-radius: 7px 28px;
-    	 display: block;
-    	 text-align: center;
+.shortbox {
+    position: relative;
+    margin: auto;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    background-color: #959595;
+    width: 50%;
+    height: auto;
+    border: 7px groove #b3b3b3;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #5b5b5b;
+    border-radius: 7px 28px;
+    display: block;
+    text-align: center;
 }
 
 /* the "pic" class is for images */
-.pic
-{
-        position: relative;
-      	margin: auto;
-      	bottom: -5px;
-      	right: 0;
-      	left: 0;
-      	padding-top: 5px;
-      	text-shadow: 1px 1px 1px #5b5b5b;
-      	display: block;
-      	text-align: center;
+.pic {
+    position: relative;
+    margin: auto;
+    bottom: -5px;
+    right: 0;
+    left: 0;
+    padding-top: 5px;
+    text-shadow: 1px 1px 1px #5b5b5b;
+    display: block;
+    text-align: center;
 }
 
 /* the "minipic" class is for small images contained in small boxes */
-.minipic
-{
-        position: relative;
-      	margin: auto;
-      	top: -13px;
-      	text-shadow: 1px 1px 1px #5b5b5b;
-      	display: block;
-      	text-align: center;
-}
-
-/* the "headerinfo" class is the area below the Navbar */
-.headerinfo
-{
-        position: relative;
-      	margin: auto;
-      	right: 0;
-      	left: 0;
-        top: -5px;
-      	background-color: #df8600;
-      	width: 300px;
-      	height: 22px;
-      	border: 5px groove #ff9900;
-      	padding: 1px;
-        color: white;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 0px 0px 20px 20px;
-	display: block;
-	text-align: center
+.minipic {
+    position: relative;
+    margin: auto;
+    top: -13px;
+    text-shadow: 1px 1px 1px #5b5b5b;
+    display: block;
+    text-align: center;
 }
 
 /* the "bottom-bar" class is just the footer */
-.bottom-bar
-{
+.bottom-bar {
 	position: fixed;
 	margin: auto;
 	bottom: 0;
@@ -309,7 +271,7 @@ body, html, div
 	left: 0;
 	background-color: #8c5400;
 	width: 97.9%;
-	height: 20px;
+	height: auto;
 	border: 7px groove #a66503;
 	padding: 10px;
 	color: white;
@@ -321,8 +283,7 @@ body, html, div
 }
 
 /* i don't think this is used at all tbh */
-.header
-{
+.header {
 	background-color: lightgrey;
 	border: 7px ridge #f2f2f2;
 	padding: 20px;

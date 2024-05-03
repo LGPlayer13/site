@@ -21,44 +21,8 @@ body, html, div {
 	font-size:15px;
 }
 
-/* the "main" class is for boxes defining what the current page is about */
-.main {
-	position: relative;
-	margin: auto;
-	bottom: -5px;
-	right: 0;
-	left: 0;
-	background-color: lightgrey;
-	width: 50%;
-	height: auto;
-	border: 7px groove #f2f2f2;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center;
-}
-
-/* the "secondary" class is for larger boxes containing information and/or Short blog posts */
-.secondary {
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: #ababab;
-	width: 50%;
-	height: auto;
-	border: 7px groove #c7c7c7;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #545c34;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center
-}
-
-/* the "longsecondary" class is for lots of information and/or Long blog posts */
-.longsecondary {
+/* the "box" class is for your everyday boxes */
+.box {
 	position: relative;
 	margin: auto;
 	bottom: -10px;
@@ -73,60 +37,6 @@ body, html, div {
 	border-radius: 7px 28px;
 	display: block;
 	text-align: center
-}
-
-/* the "longersecondary" class is for Longer blog posts */
-.longersecondary {
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: lightgrey;
-	width: 50%;
-	height: auto;
-	border: 7px groove #f2f2f2;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center
-}
-
-/* the "quaternary" class is for dark, large-ish boxes */
-.quaternary {
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: grey;
-	width: 50%;
-	height: auto;
-	border: 7px groove #bababa;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center
-}
-
-/* the "quinary" class is for Tiny blog posts */
-.quinary {
-	position: relative;
-	margin: auto;
-	bottom: -10px;
-	right: 0;
-	left: 0;
-	background-color: lightgrey;
-	width: 50%;
-	height: auto;
-	border: 7px groove #f2f2f2;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	border-radius: 7px 28px;
-	display: block;
-	text-align: center;
 }
 
 /* the "game" class is for Scratch/IGM-game related boxes */
@@ -168,20 +78,20 @@ body, html, div {
 
 /* the "spotify" class is for information above spotify playlist embeds */
 .spotify {
-      	position: relative;
-      	margin: auto;
-      	bottom: -10px;
-      	right: 0;
-      	left: 0;
-      	background-color: #19b250;
-      	width: 50%;
-      	height: auto;
-      	border: 7px groove #1ed760;
-      	padding: 5px;
-      	text-shadow: 1px 1px 1px #5b5b5b;
-      	border-radius: 7px 28px;
-      	display: block;
-      	text-align: center;
+    position: relative;
+    margin: auto;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    background-color: #19b250;
+    width: 50%;
+    height: auto;
+    border: 7px groove #1ed760;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #5b5b5b;
+    border-radius: 7px 28px;
+    display: block;
+    text-align: center;
 }
 
 /* the "disc" class is for the discs */

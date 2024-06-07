@@ -17,9 +17,16 @@ h1 {
 
 /* font type and size */
 body, html, div {
-	font-family:"Malgun Gothic", sans-serif;
+	font-family:"Instrument Sans", sans-serif;
 	font-size:15px;
+    font-weight:400;
+    font-style:normal;
 }
+
+/*
+code used for the background and border of boxes
+background:rgba(128,128,128,0.85);border:4px outset #8d8d8d;
+*/
 
 /* the "box" class is for your everyday boxes */
 .box {
@@ -31,10 +38,10 @@ body, html, div {
 	background-color: lightgrey;
 	width: 50%;
 	height: auto;
-	border: 7px groove #f2f2f2;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 	display: block;
 	text-align: center
 }
@@ -49,15 +56,15 @@ body, html, div {
 	background-color: #3bc995;
 	width: 50%;
 	height: auto;
-	border: 7px groove #2cffb1;
 	padding: 5px;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 	display: block;
 	text-align: center;
 }
 
-/* the "special" class is for special links to the Guestbook and other cool websites */
+/* the "special" class is no longer used, methinks */
 .special {
 	position: relative;
 	margin: auto;
@@ -67,11 +74,11 @@ body, html, div {
 	background-color: darkviolet;
 	width: 50%;
 	height: auto;
-	border: 7px groove #a13cff;
 	padding: 5px;
 	color: white;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 	display: block;
 	text-align: center;
 }
@@ -90,6 +97,7 @@ body, html, div {
     padding: 5px;
     text-shadow: 1px 1px 1px #5b5b5b;
     border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
     display: block;
     text-align: center;
 }
@@ -109,6 +117,7 @@ body, html, div {
 	color: white;
 	text-shadow: 1px 1px 1px #5b5b5b;
 	border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 	display: block;
 	text-align: center
 }
@@ -127,6 +136,7 @@ body, html, div {
     padding: 5px;
     text-shadow: 1px 1px 1px #5b5b5b;
     border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
     display: block;
     text-align: center;
 }
@@ -141,12 +151,17 @@ body, html, div {
     background-color: #959595;
     width: 50%;
     height: auto;
-    border: 7px groove #b3b3b3;
     padding: 5px;
     text-shadow: 1px 1px 1px #5b5b5b;
     border-radius: 7px 28px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
     display: block;
     text-align: center;
+}
+
+/* the "update" class is for updates and various other links */
+.update {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3), inset 0px 2px 1px rgba(255, 255, 255, 0.3), inset 0px -2px 1px rgba(0, 0, 0, 0.4);
 }
 
 /* the "pic" class is for images */
@@ -170,26 +185,6 @@ body, html, div {
     text-shadow: 1px 1px 1px #5b5b5b;
     display: block;
     text-align: center;
-}
-
-/* the "bottom-bar" class is just the footer */
-.bottom-bar {
-	position: fixed;
-	margin: auto;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	background-color: #8c5400;
-	width: 97.9%;
-	height: auto;
-	border: 7px groove #a66503;
-	padding: 10px;
-	color: white;
-	text-shadow: 1px 1px 1px #5b5b5b;
-	text-align: center;
-	border-radius: 28px 28px 7px 7px;
-	display: block;
-	z-index: 1000;
 }
 
 /* i don't think this is used at all tbh */
@@ -225,7 +220,7 @@ a:active {
     padding: 0;
 	overflow: hidden;
 	background-color: #ce7c00;
-	border: 7px groove #ff9900;
+	border: 7px outset #ff9900;
     list-style: none;
     list-style-type: none;
 	text-shadow: 1px 1px 1px #5b5b5b;
@@ -255,8 +250,23 @@ a:active {
 	background-color: #ffcf75;
 }
 
-/* i have no clue what this is for tbh, it's probably pretty old */
-.buttonIGM1-1 {
-	width: 2%;
-	text-align: right;
+/* the "bottom-bar" class is just the footer */
+.bottom-bar {
+	position: fixed;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #8c5400;
+	width: 97.9%;
+	height: auto;
+	border: 7px outset #a66503;
+	padding: 10px;
+	color: white;
+	text-shadow: 1px 1px 1px #5b5b5b;
+	text-align: center;
+	border-radius: 28px 28px 7px 7px;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.3),inset 0px 2px 1px rgba(255, 255, 255, 0.3),inset 0px -2px 1px rgba(0, 0, 0, 0.4);
+	display: block;
+	z-index: 1000;
 }
